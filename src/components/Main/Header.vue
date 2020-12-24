@@ -1,12 +1,12 @@
 <template>
   <header>
     <div id="container">
-      <div style="width: 100%;">
+      <div id="container__logo">
         <a href="."><h1 id="logo">Budinha</h1></a>
       </div>
       <nav id="links">
         <ul>
-          <li><a href="#">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -48,7 +48,11 @@ header {
   padding: 2% 0;
 }
 
-header #logo {
+#container__logo {
+  width: 100%;
+}
+
+#logo {
   font-family: Logo;
   font-size: 2.5rem;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
@@ -80,13 +84,11 @@ header ul li a {
   nav#links {
     display: none;
   }
-  header #logo {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-  }
   header #container {
     padding: 4% 0;
+  }
+  #container__logo {
+    text-align: center;
   }
 }
 </style>

@@ -2,14 +2,14 @@
   <div id="main">
     <Header />
     <MainContent />
-    <Arrow />
+    <Arrow link="#about" />
   </div>
 </template>
 
 <script>
 import Header from '../components/Main/Header';
 import MainContent from '../components/Main/MainContent';
-import Arrow from '../components/Main/Arrow';
+import Arrow from '../components/Arrow';
 
 export default {
   components: {
@@ -32,6 +32,7 @@ div#main {
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    max-width:100%;
 }
 
 </style>

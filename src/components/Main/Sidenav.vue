@@ -8,12 +8,12 @@
       </ul>
     </nav>
     <div class="containerButtonOpen">
-      <a href="#" class="menuButton"
+      <a href="#!" class="menuButton"
         ><img src="../../assets/bars.png" alt="" width="35" id="buttonImg"
       /></a>
     </div>
     <div class="containerButtonClose">
-      <a href="#" class="menuButton"
+      <a href="#!" class="menuButton"
         ><img src="../../assets/close.png" alt="" width="35" id="buttonImg"
       /></a>
     </div>
