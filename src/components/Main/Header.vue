@@ -6,9 +6,9 @@
       </div>
       <nav id="links">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">{{ $t('header.about') }}</a></li>
+          <li><a href="#projects">{{ $t('header.project') }}</a></li>
+          <li><a href="#contact">{{ $t('header.contact') }}</a></li>
         </ul>
       </nav>
     </div>

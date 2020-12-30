@@ -2,10 +2,10 @@
   <div>
     <nav id="sidenav">
       <ul id="sidenav__links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">{{ $t('header.home') }}</a></li>
+        <li><a href="#about">{{ $t('header.about') }}</a></li>
+        <li><a href="#project">{{ $t('header.project') }}</a></li>
+        <li><a href="#contact">{{ $t('header.contact') }}</a></li>
       </ul>
     </nav>
     <div class="containerButtonOpen">

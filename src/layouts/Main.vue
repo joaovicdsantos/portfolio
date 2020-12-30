@@ -3,6 +3,7 @@
     <Header />
     <MainContent />
     <Arrow link="#about" />
+    <LangSelect />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Header from "../components/Main/Header";
 import MainContent from "../components/Main/MainContent";
 import Arrow from "../components/Arrow";
+import LangSelect from "../components/LangSelect";
 
 export default {
   components: {
     Header,
     MainContent,
     Arrow,
+    LangSelect
   },
 };
 </script>

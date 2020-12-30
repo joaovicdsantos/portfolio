@@ -2,14 +2,14 @@
   <div id="projects">
     <div id="projects__container">
       <Topic
-        title="Projects"
+        :title="$t('projects_content.title')"
         title_color="#fff"
         class="title"
       />
       <div id="projects__group">
-        <Project title="Budajuda" description="Um site simples para compartilhar conhecimento."  imgName="budajuda.budaportfolio.epizy.com.png" link="http://budajuda.budaportfolio.epizy.com"/>
-        <Project title="Trasle" description="Music player."  imgName="trasle.png" link="https://trasle-cloud.gq"/>
-        <Project title="Trasle-Cloud" description="A simple cloud service."  imgName="trasle-cloud.png" link="https://trasle-cloud.gq"/>
+        <Project :title="$t('projects_content.projects.budajuda.title')" :description="$t('projects_content.projects.budajuda.description')"  imgName="budajuda.budaportfolio.epizy.com.png" link="http://budajuda.budaportfolio.epizy.com"/>
+        <Project :title="$t('projects_content.projects.trasle.title')" :description="$t('projects_content.projects.trasle.description')"  imgName="trasle.png" link="https://trasle-cloud.gq"/>
+        <Project :title="$t('projects_content.projects.trasle_cloud.title')" :description="$t('projects_content.projects.trasle_cloud.description')"  imgName="trasle-cloud.png" link="https://trasle-cloud.gq"/>
       </div>
     </div>
   </div>

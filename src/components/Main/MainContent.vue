@@ -2,10 +2,10 @@
   <div id="container">
     <div>
       <h1>
-        Hello, my name's <span class="highlight">João Victor</span>. I'm a
-        <span class="highlight">Backend Developer</span>.
+        {{ $t('main_content.main1') }} <span class="highlight">João Victor</span>. {{ $t('main_content.main2') }}
+        <span class="highlight">{{ $t('main_content.main3') }}</span>.
       </h1>
-      <h6>and a <span class="highlight">golang</span> lover.</h6>
+      <h6>{{ $t('main_content.main4') }} <span class="highlight">golang</span> {{ $t('main_content.main5') }}.</h6>
     </div>
     <img src="../../assets/gopher.png" style="width: 300px" id="gopher" />
   </div>
