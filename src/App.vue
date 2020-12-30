@@ -2,31 +2,30 @@
   <div id="app">
     <Main />
     <About />
+    <Projects />
+    <Contact />
   </div>
 </template>
 
 <script>
 import Main from "./layouts/Main";
 import About from "./layouts/About";
+import Projects from "./layouts/Projects";
+import Contact from "./layouts/Contact";
 
 export default {
   name: "App",
   components: {
     Main,
     About,
-  },
-  mounted: () => {
-    // window.scrollTo({
-    //   top: 100,
-    //   left: 100,
-    //   behavior: "smooth",
-    // });
-  },
+    Projects,
+    Contact
+  }
 };
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;900&display=swap");
 
 * {
   font-family: "Lato", sans-serif;

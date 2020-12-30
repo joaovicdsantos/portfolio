@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import Topic from "../components/About/Topic";
+import Topic from "../components/Topic";
 import Card from "../components/About/Card";
 import Technology from "../components/About/Technology";
 import Arrow from "../components/Arrow";
@@ -44,16 +44,6 @@ export default {
     Topic,
     Card,
     Technology
-  },
-  data: function() {
-    return {
-      extra_technologies: [
-        {
-          name: "Linux",
-          stars: 4.5
-        }
-      ]
-    }
   }
 };
 </script>
