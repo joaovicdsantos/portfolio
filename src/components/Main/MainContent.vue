@@ -38,6 +38,9 @@ span.highlight {
   #container h1, #container h6 {
     text-align: center;
   }
+  #container h1 {
+    font-size: 2.9rem;
+  }
 }
 
 @media (max-width: 768px) {
