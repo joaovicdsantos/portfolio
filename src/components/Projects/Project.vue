@@ -49,4 +49,9 @@ export default {
 .project__content p {
   font-size: 10pt;  
 }
+@media (max-width: 576px) {
+  .project {
+    width: 100%;
+  }
+}
 </style>

@@ -12,7 +12,7 @@
 export default {
   name: 'locale-changer',
   data () {
-    return { langs: [['pt', 'Português'], ['en', 'English']] }
+    return { langs: [['pt', 'pt-BR'], ['en', 'en-US']] }
   }
 }
 </script>
@@ -25,12 +25,12 @@ export default {
   right: 20px;
 }
 .locale-changer select {
-  border: 1px solid #ffffff30;
+  border: 1px solid #ffffff10;
   border-radius: 5px;
-  background-color: #ff3838;
+  background-color: #ff383890;
   /* font-weight: bolder; */
   font-size: 16px;
-  color: #fff;
+  color: #ffffff90;
   padding: 3px 10px;
 }
 .locale-changer select:focus {
@@ -38,6 +38,8 @@ export default {
 }
 .locale-changer select option {
   border: none;
+  background-color: #ff3838;
+  color: #fff;
 }
 
 </style>

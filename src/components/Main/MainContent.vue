@@ -34,6 +34,12 @@ span.highlight {
   color: #ff3838;
 }
 
+@media (max-width: 576px) {
+  #container h1, #container h6 {
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   img#gopher {
     display: none;

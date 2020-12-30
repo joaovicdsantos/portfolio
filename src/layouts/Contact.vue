@@ -28,7 +28,6 @@ export default {
   align-items: center;
   background-color: #ff3838;
 }
-
 #contact__container {
   display: flex;
   flex-direction: row;
@@ -36,5 +35,9 @@ export default {
   align-items: center;
   width: 80%;
   padding: 2% 0;
+  flex-wrap: wrap;
+}
+.socialmedia {
+  margin: 10px;
 }
 </style>
