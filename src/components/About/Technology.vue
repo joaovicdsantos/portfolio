@@ -1,28 +1,29 @@
 <template>
   <div class="technology">
-    <div>
-      <a href="#" target="_blank">{{ name }}</a>
-    </div>
+    <a v-if="link" :href="link" target="_blank"
+      >{{ name }}&nbsp;<img
+        src="../../assets/arrow_link.png"
+        style="vertical-align: baseline; height: 0.6rem"
+    /></a>
+    <a v-else>{{ name }}</a>
+
     <div id="stars">
-      <img v-bind:src="starsImg[0]"/>
-      <img v-bind:src="starsImg[1]"/>
-      <img v-bind:src="starsImg[2]"/>
-      <img v-bind:src="starsImg[3]"/>
-      <img v-bind:src="starsImg[4]"/>
+      <img v-bind:src="starsImg[0]" />
+      <img v-bind:src="starsImg[1]" />
+      <img v-bind:src="starsImg[2]" />
+      <img v-bind:src="starsImg[3]" />
+      <img v-bind:src="starsImg[4]" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: [
-    'name',
-    'stars',
-  ],
-  data: function() {
+  props: ["name", "stars", "link"],
+  data: function () {
     var starsImg = Array();
-    var half = this.stars%1;
-    var stars = this.stars-half;
+    var half = this.stars % 1;
+    var stars = this.stars - half;
     for (var i = 0; i < stars; i++) {
       starsImg[i] = require("@/assets/star.png");
     }
@@ -33,10 +34,10 @@ export default {
       starsImg[j] = require("@/assets/star_outline.png");
     }
     return {
-      starsImg
-    }
-  }
-}
+      starsImg,
+    };
+  },
+};
 </script>
 
 <style scoped>

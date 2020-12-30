@@ -9,17 +9,23 @@
 
       <div class="cards">
         <Card :title="$t('about_content.back_tech')">
-          <Technology name="Golang" stars="3" />
-          <Technology name="Javascript" stars="4" />
-          <Technology name="PHP" stars="4" />
+          <Technology name="Golang" stars="3" link="https://github.com/joaovicdsantos?tab=repositories&q=&type=&language=go" />
+          <Technology name="Javascript" stars="4" link="https://github.com/joaovicdsantos?tab=repositories&q=&type=&language=javascript" />
+          <Technology name="PHP" stars="4" link="https://github.com/joaovicdsantos?tab=repositories&q=&type=&language=php" />
           <Technology name="Python" stars="3" />
+          <Technology name="Ruby" stars="3" />
         </Card>
         <Card :title="$t('about_content.front_tech')">
           <Technology name="HTML" stars="5" />
           <Technology name="CSS" stars="5" />
+          <Technology name="Vue" stars="4" />
+          <Technology name="React" stars="4" />
+          <Technology name="SASS" stars="4" />
+          <Technology name="Webpack" stars="4" />
         </Card>
         <Card :title="$t('about_content.extra')">
           <Technology name="Linux" stars="4" />
+          <Technology name="Scrum" stars="4" />
           <Technology name="Heroku" stars="4" />
         </Card>
       </div>
