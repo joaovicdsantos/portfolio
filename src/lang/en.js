@@ -8,7 +8,7 @@ export default {
   main_content: {
     main1: "Hello, my name's",
     main2: "I'm a",
-    main3: "Backend Developer",
+    main3: "Fullstack Developer",
     main4: "and a",
     main5: "lover",
   },
