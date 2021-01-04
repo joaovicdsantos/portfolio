@@ -1,7 +1,7 @@
 <template>
   <div id="contact">
     <div id="contact__container">
-      <SocialMedia name="budinha" imageName="facebook.png"  link="https://www.facebook.com/budinha"/>
+      <SocialMedia name="joaovicdsantos" imageName="linkedin.png"  link="https://www.linkedin.com/in/joaovicdsantos"/>
       <SocialMedia name="joao_budinha" imageName="twitter.png" link="https://www.twitter.com/joao_budinha"/>
       <SocialMedia name="joaovicdsantos" imageName="github.png" link="https://github.com/joaovicdsantos" />
       <SocialMedia name="joaovicdsantos@" imageName="mail.png" link="mailto:joaovicdsantos@gmail.com" />
